@@ -14,7 +14,7 @@
     `.\venv\cybw\Scripts\activate.ps1`
 7.  At this point you should see (cybw) at the begining of the command prompt, if not, ask for help
 8. Type
-    `python  .\example_ai\example.py
+    `python  .\example_ai\example.py`
     
 
 # Starcraft First Time Setup
