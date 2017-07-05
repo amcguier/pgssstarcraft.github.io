@@ -1,18 +1,23 @@
 # Bot Setup Instructions
 
-1. Download the broodwar zip and extract it to your personal drive (mine is W:/)
+1. Download the broodwar zip and extract it to your files personal drive (mine is C:\Users\<YourUserName>)
+   *Note When you extract, remove the `\Starcraft\` from the end of the path or it'll end up nested*
+2. Copy the resulting starcraft file to "my files" (W:\)
+   *Note this will take a few minutes, sorry, the shared drives are slow*
 3. Open powershell
 4. Type:
    `Set-ExecutionPolicy -Scope CurrentUser Unrestricted`
 
     *Note: For the curious, this sets your permissions to run the script in the next steps*
 5. Type:
-   `cd "W:/Starcraft/cybw/"` 
+   `cd "W:\Starcraft\cybw\"` 
    
     assuming you extracted starcraft to the top level of your shared drive
 6.  Type:
     `.\venv\cybw\Scripts\activate.ps1`
 7.  At this point you should see (cybw) at the begining of the command prompt, if not, ask for help
+8. Type:
+   `python --version` it should print `Python 3.5.3` if you don't see this, ask for help
 8. Type:
     `python  .\example_ai\example.py`
     
@@ -21,15 +26,17 @@
 
 1. Open the folder where you unzipped Starcraft in file explorer
 2. Go to the ChaosLauncher folder
-3. Run ChaosLauncher
-4. Navigate to the settings tab ![Chaos Launcher](./images/ChaosLauncherPath.png)
-5. Change the installpath to wherever you have starcraft
+3. Run ChaosLauncher, when prompted you can uncheck "Always ask me before running this file"
+   *Note this will take a second, slow drives again* 
+4. Dismiss the popup about "Incorrect path to starcraft"   
+5. Navigate to the settings tab ![Chaos Launcher](./images/ChaosLauncherPath.png)
+6. Change the installpath to wherever you have starcraft
    
     By default this will be *W:/Starcraft/Brood War/*
-6. Click `OK`
-7. You should be prompted to restart the Chaos Launcher, in either case, restart it.
-8. Go to the plugin tab
-9. Enable 
+7. Click `OK`
+8. You should be prompted to restart the Chaos Launcher, in either case, restart it.
+9. Go to the plugin tab
+10. Enable 
 
     ```
     BWAPI 4.2.0 Injector [Release]
@@ -39,8 +46,8 @@
    The former will setup the game to allow your bot to run, the latter will run the game 
    in a window so you don't have to live with the glories of 800x600 resolution
    ![Chaos Launcher Plugins](./images/ChaosLauncherPlugins.png)
-10. Click `Start`
-
+11. Click `Start`
+    *Note: You can ignore the prompt about needing administrative permissions*
 # Running the game
 1. Go to the ChaosLauncher folder
 2. Run ChaosLauncher
