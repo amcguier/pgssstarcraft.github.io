@@ -37,7 +37,7 @@
    
        The former will setup the game to allow your bot to run, the latter will run the game 
        in a window so you don't have to live with the glories of 800x600 resolution
-   ![Chaos Launcher Plugins](./images/ChaosLauncherPlugins.png)
+![Chaos Launcher Plugins](./images/ChaosLauncherPlugins.png)
 10. Click `Start`
 
 # Running the game
