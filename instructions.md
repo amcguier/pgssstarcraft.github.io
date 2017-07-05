@@ -31,13 +31,13 @@
 8. Go to the plugin tab
 9. Enable 
 
-        BWAPI 4.2.0 Injector [Release]
+    ```BWAPI 4.2.0 Injector [Release]
    
-        W-Mode 1.0.2
+       W-Mode 1.0.2```
    
-       The former will setup the game to allow your bot to run, the latter will run the game 
-       in a window so you don't have to live with the glories of 800x600 resolution
-![Chaos Launcher Plugins](./images/ChaosLauncherPlugins.png)
+   The former will setup the game to allow your bot to run, the latter will run the game 
+   in a window so you don't have to live with the glories of 800x600 resolution
+   ![Chaos Launcher Plugins](./images/ChaosLauncherPlugins.png)
 10. Click `Start`
 
 # Running the game
