@@ -2,18 +2,18 @@
 
 1. Download the broodwar zip and extract it to your personal drive (mine is W:/)
 3. Open powershell
-4. type
+4. Type:
    `Set-ExecutionPolicy -Scope CurrentUser Unrestricted`
 
     *Note: For the curious, this sets your permissions to run the script in the next steps*
-5. type
+5. Type:
    `cd "W:/Starcraft/cybw/"` 
    
     assuming you extracted starcraft to the top level of your shared drive
-6.  type
+6.  Type:
     `.\venv\cybw\Scripts\activate.ps1`
 7.  At this point you should see (cybw) at the begining of the command prompt, if not, ask for help
-8. Type
+8. Type:
     `python  .\example_ai\example.py`
     
 
