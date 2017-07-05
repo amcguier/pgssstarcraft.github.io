@@ -8,17 +8,13 @@
     *Note this will take a few minutes, sorry, the shared drives are slow*
 3. Open powershell
 4. Type:
-   `Set-ExecutionPolicy -Scope CurrentUser Unrestricted`
-
-    *Note: For the curious, this sets your permissions to run the script in the next steps*
-5. Type:
    `cd "W:\Starcraft\cybw\"` 
    
     assuming you extracted starcraft to the top level of your shared drive
-6.  Type:
+5.  Type:
     `.\venv\cybw\Scripts\activate.ps1`
-7.  At this point you should see (cybw) at the begining of the command prompt, if not, ask for help
-8. Type:
+6.  At this point you should see (cybw) at the begining of the command prompt, if not, ask for help
+7. Type:
    `python --version` it should print `Python 3.5.3` if you don't see this, ask for help
 8. Type:
     `python  .\example_ai\example.py`
