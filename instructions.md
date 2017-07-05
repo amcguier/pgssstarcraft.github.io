@@ -1,9 +1,11 @@
 # Bot Setup Instructions
 
 1. Download the broodwar zip and extract it to your files personal drive (mine is C:\Users\<YourUserName>)
-   *Note When you extract, remove the `\Starcraft\` from the end of the path or it'll end up nested*
+
+    *Note When you extract, remove the `\Starcraft\` from the end of the path or it'll end up nested*
 2. Copy the resulting starcraft file to "my files" (W:\)
-   *Note this will take a few minutes, sorry, the shared drives are slow*
+
+    *Note this will take a few minutes, sorry, the shared drives are slow*
 3. Open powershell
 4. Type:
    `Set-ExecutionPolicy -Scope CurrentUser Unrestricted`
@@ -27,7 +29,8 @@
 1. Open the folder where you unzipped Starcraft in file explorer
 2. Go to the ChaosLauncher folder
 3. Run ChaosLauncher, when prompted you can uncheck "Always ask me before running this file"
-   *Note this will take a second, slow drives again* 
+
+    *Note this will take a second, slow drives again* 
 4. Dismiss the popup about "Incorrect path to starcraft"   
 5. Navigate to the settings tab ![Chaos Launcher](./images/ChaosLauncherPath.png)
 6. Change the installpath to wherever you have starcraft
@@ -47,6 +50,7 @@
    in a window so you don't have to live with the glories of 800x600 resolution
    ![Chaos Launcher Plugins](./images/ChaosLauncherPlugins.png)
 11. Click `Start`
+    
     *Note: You can ignore the prompt about needing administrative permissions*
 # Running the game
 1. Go to the ChaosLauncher folder
